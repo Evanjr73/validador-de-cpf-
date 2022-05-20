@@ -20,6 +20,7 @@ function validaCPF(cpf){
                 return false;
             }
             
+            
             soma = 0;
 
             numeros = cpf.substring(0 , 10);
